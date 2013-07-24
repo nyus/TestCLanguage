@@ -13,6 +13,7 @@
 		50102D53175B8ED90077587E /* List.c in Sources */ = {isa = PBXBuildFile; fileRef = 50102D52175B8ED90077587E /* List.c */; };
 		501963F71775F5FD00A01657 /* Exercises.c in Sources */ = {isa = PBXBuildFile; fileRef = 501963F61775F5FD00A01657 /* Exercises.c */; };
 		501963FA17761AF300A01657 /* Polynomial.c in Sources */ = {isa = PBXBuildFile; fileRef = 501963F917761AF300A01657 /* Polynomial.c */; };
+		508B7D4E179F57A8001BE987 /* HashTable.c in Sources */ = {isa = PBXBuildFile; fileRef = 508B7D4D179F57A8001BE987 /* HashTable.c */; };
 		509631CC1763E2C4002CF1B2 /* Stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 509631CB1763E2C4002CF1B2 /* Stack.c */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +42,8 @@
 		501963F61775F5FD00A01657 /* Exercises.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Exercises.c; sourceTree = "<group>"; };
 		501963F817761AED00A01657 /* Polynomial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Polynomial.h; sourceTree = "<group>"; };
 		501963F917761AF300A01657 /* Polynomial.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Polynomial.c; sourceTree = "<group>"; };
+		508B7D4C179F57A0001BE987 /* HashTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HashTable.h; sourceTree = "<group>"; };
+		508B7D4D179F57A8001BE987 /* HashTable.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = HashTable.c; sourceTree = "<group>"; };
 		509631CA1763E2BE002CF1B2 /* Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
 		509631CB1763E2C4002CF1B2 /* Stack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Stack.c; sourceTree = "<group>"; };
 		509631CD1763E35F002CF1B2 /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
@@ -88,6 +91,7 @@
 				509631CD1763E35F002CF1B2 /* Constant.h */,
 				501963F41775F5CF00A01657 /* Chapter 3 */,
 				500D8775178640D800B186E0 /* Chapter 4 */,
+				508B7D47179F5635001BE987 /* Chapter 5 */,
 				50102D48175B8C8B0077587E /* main.c */,
 				50102D4A175B8C8B0077587E /* TestCLanguage.1 */,
 			);
@@ -107,6 +111,15 @@
 				501963F917761AF300A01657 /* Polynomial.c */,
 			);
 			name = "Chapter 3";
+			sourceTree = "<group>";
+		};
+		508B7D47179F5635001BE987 /* Chapter 5 */ = {
+			isa = PBXGroup;
+			children = (
+				508B7D4C179F57A0001BE987 /* HashTable.h */,
+				508B7D4D179F57A8001BE987 /* HashTable.c */,
+			);
+			name = "Chapter 5";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +179,7 @@
 				501963F71775F5FD00A01657 /* Exercises.c in Sources */,
 				501963FA17761AF300A01657 /* Polynomial.c in Sources */,
 				500D8778178642C500B186E0 /* BinarySearchTree.c in Sources */,
+				508B7D4E179F57A8001BE987 /* HashTable.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

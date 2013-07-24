@@ -99,7 +99,7 @@ int main(int argc, const char * argv[])
 //    struct TreeNode *max = findMax(tree);
 //    struct TreeNode *min = findMin(tree);
 //    boolean isFind = find(tree->root, 99);
-    traverseBinarySea rchTree(tree);
+    traverseBinarySearchTree(tree);
 
     struct Node **nodeList = (struct Node **)malloc(sizeof(struct Node*) * 10);
     nodeList[0] = (struct Node *)malloc(sizeof(struct Node));
